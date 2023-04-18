@@ -1,0 +1,12 @@
+{
+  "name": "consolejwtdecoder",
+  "version": "1.0.0",
+  "description": "A console application that decodes JWT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flappizy",
+  "license": "ISC"
+}
