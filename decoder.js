@@ -1,5 +1,7 @@
 export function jwtDecoder(token) {
     const jwt = token.split('.');
+    if (jwt.length !== 3)
+        return "Invalid token";
 
     const header =  Buffer.from(jwt[0], 'base64');
     const decodedHeaderString = header.toString('utf-8');
